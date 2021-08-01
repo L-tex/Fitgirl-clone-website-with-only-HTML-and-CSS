@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.all {
+    width: 80%;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    min-width: 80%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.unused_box {
+    width: 20vw;
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1500px) {
+    .all {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .unused_box {
+        width: 0vw;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px 0px 20px;
+}
+
+.fitgirl_repacks_header {
+    display: flex;
+    list-style-type: none;
+    color: violet;
+}
+
+.navbar_main {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.navbar_main li {
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+.navbar_main li:hover {
+    color: rgb(204, 204, 204);
+}
+
+.search_icon_img {
+    list-style-type: none;
+    background-color: green;
+    margin-top: -3px;
+    border-top: 3px solid green;
+}
+
+.main {
+    margin-top: 41px;
+}
+
+.description {
+    width: 230px;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    float: left;
+}
+
+.normal_text {
+    padding: 15px;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+.normal_text_info {
+    padding: 15px;
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+}
+
+.description_headers {
+    padding: 15px;
+    font-size: 13px;
+    color: violet;
+}
+
+.btn {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    margin-left: 15px;
+}
+
+.btn_subscribe {
+    padding: 5px 20px;
+    font-size: 10px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.btn_subscribe:hover {
+    color: rgb(204, 204, 204);
+}
+
+.btn:hover {
+    color: rgb(204, 204, 204);
+}
+
+.normal_text_info_2 {
+    padding: 15px;
+    font-size: 17px;
+    color: rgb(204, 204, 204);
+}
+
+.email {
+    padding: 5px;
+    font-size: 13px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid white;
+    margin-left: 15px;
+    width: 180px;
+    border-radius: 2px;
+}
+
+.content {
+    float: left;
+    margin: 20px 320px 20px 320px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+}
+
+.content_text_info {
+    font-size: 13px;
+    color: black;
+}
+
+.upcoming_repacks {
+    font-size: 35px;
+    font-weight: 50;
+}
+
+.time {
+    display: flex;
+    list-style: none;
+}
+
+.time li {
+    font-size: 13px;
+    padding: 0 10px 0 0;
+    color: grey;
+}
+
+.upcoming_repacks_lists {
+    list-style: none;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.upcoming_repacks_lists li {
+    line-height: 23px;
+}
+
+.size {
+    color: blue;
+}
+
+.games_box {
+    display: inline-block;
+    justify-content: center;
+    border: 1px solid grey;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-top: 28px;
+}
+
+.games_box h1 {
+    color: grey;
+    padding: 10px 0;
+    font-size: 28px;
+}
+
+.latest_repacks_img {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.latest_repacks_img li {
+    padding: 2px;
+}
+
+.game_img img {
+    width: 110px;
+}
+
+.extra_words {
+    color: blue;
+    margin: 20px 0px;
+}
+
+.extra_words_2 {
+    color: black;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    margin: 20px 0px;
+}
