@@ -1,5 +1,5 @@
 # 🌐 Fitgirl-clone-website-with-only-HTML-and-CSS
-This is the Clone website of Figirl Repacks, a Pirated Game repacks website,  I made it with HTML and CSS
+This is the Clone website of Fitgirl Repacks, a Pirated Game repacks website, I made it with HTML and CSS
 <hr>
 
 ## `This is how the Website looks on a 1080p device`
