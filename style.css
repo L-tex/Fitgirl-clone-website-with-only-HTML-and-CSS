@@ -78,7 +78,7 @@
 }
 
 .description {
-    width: 230px;
+    width: 216px;
     height: 150vh;
     color: white;
     background-color: black;
@@ -89,6 +89,10 @@
     padding: 15px;
     font-size: 13px;
     line-height: 5px;
+}
+
+.normal_text:hover {
+    background-color: green;
 }
 
 .normal_text_info {
@@ -104,7 +108,7 @@
 }
 
 .btn {
-    padding: 5px;
+    padding: 5px 29px;
     font-size: 20px;
     color: white;
     background-color: green;
@@ -147,10 +151,15 @@
     border-radius: 2px;
 }
 
+.content_div {
+    display: flex;
+    justify-content: center;
+}
+
 .content {
-    float: left;
-    width: 59vw;
-    padding: 20px 300px;
+    display: block;
+    width: 55vw;
+    padding-top: 90px;
     background-color: white;
     position: absolute;
     z-index: -1;

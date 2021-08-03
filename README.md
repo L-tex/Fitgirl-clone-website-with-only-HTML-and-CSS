@@ -3,7 +3,7 @@ This is the Clone website of Fitgirl Repacks, a Pirated Game repacks website, I 
 <hr>
 
 ## `This is how the Website looks on a 1080p device`
-<img src="https://i.postimg.cc/WbqLDFRn/fitgirl-clone-img.png" alt="final_website_look">
+<img src="https://i.postimg.cc/VkyPQjGt/fitgirl-clone-img.png" alt="final_website_look">
 <hr>
 
 ### `Note` : This website is slightly responsive, Viewable on PC and Tablet like screens...
