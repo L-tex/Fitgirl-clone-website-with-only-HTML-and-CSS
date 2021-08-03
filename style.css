@@ -79,7 +79,7 @@
 
 .description {
     width: 230px;
-    height: 100vh;
+    height: 150vh;
     color: white;
     background-color: black;
     float: left;
@@ -149,7 +149,8 @@
 
 .content {
     float: left;
-    margin: 20px 320px 20px 320px;
+    width: 59vw;
+    padding: 20px 300px;
     background-color: white;
     position: absolute;
     z-index: -1;
@@ -228,7 +229,7 @@
 .extra_words_2 {
     color: black;
     margin: 20px 0px;
-    text-align: left;
+    text-align: justify;
 }
 
 .warning {
