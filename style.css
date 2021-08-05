@@ -83,6 +83,14 @@
     color: white;
     background-color: black;
     float: left;
+    border-top: 20px solid black;
+    position: relative;
+    top: -20px;
+    z-index: -2;
+}
+
+.description hr {
+    color: #444444;
 }
 
 .normal_text {
